@@ -78,7 +78,7 @@ void callP() {
         }
 
     } else {
-        cout << setfill('0') << setw(2) << thr << " " << tmin << " Sem pacientes aguardando atendimento" << endl;
+        cout << setfill('0') << setw(2) << thr << " " << setfill('0') << setw(2) << tmin << " Sem pacientes aguardando atendimento" << endl;
     }
 
 }
